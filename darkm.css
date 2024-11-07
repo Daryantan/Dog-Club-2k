@@ -1,0 +1,103 @@
+body{
+    background: url(https://lh3.googleusercontent.com/-_oxadkkWg8U/TmX-lRBM_PI/AAAAAAAAA4A/yKn4Ici39VU/s800/dark_background.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  a:hover{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  .menu{
+    position:fixed;
+    height: 70px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    background: url(https://lh3.googleusercontent.com/-_oxadkkWg8U/TmX-lRBM_PI/AAAAAAAAA4A/yKn4Ici39VU/s800/dark_background.jpg);
+
+
+  }
+  
+  button{
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    color: rgb(35, 35, 33);
+    border-radius: 30%;
+  }
+  button:hover{
+    cursor:grab;
+    size: 110%;
+  }
+  .main-part{
+    
+    margin-top: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    background-color: #56555393; 
+  }
+  table{
+    background-color: #56555393;
+  }
+  col{
+    background-color: #878683b9;
+  }
+p{
+    color: rgb(187, 194, 194);
+}
+
+  .ending{
+    background-color: rgba(148, 142, 142, 0.758);
+    text-align: center;
+    color: rgb(14, 14, 14);
+  }
+
+  .imdiz-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+          z-index: 99;
+          transition: all .3s;
+          visibility: hidden;
+          opacity: 0;
+  }
+  .imdiz-modal{
+      width: 400px;
+      height: 430px;
+      position: fixed;
+      z-index: 100;
+      left: 50%;
+      margin-left: -200px;
+      top: 50%;
+      margin-top: -200px;
+      background-color: rgb(210, 209, 200);
+      transition: all .3s;
+      visibility: hidden;
+      border-radius: 50px;
+     text-align: center;
+      opacity: 0;
+  }
+  .toclose{
+    
+      top: 20px;
+  
+  }
+  .imdiz-close{
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: -18px;
+      right: -35px;
+      cursor: pointer;
+  }
+  .imdiz-close:before, .imdiz-close:after{
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 36px;
+      background: #232222;
+  }
